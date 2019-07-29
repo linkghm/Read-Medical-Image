@@ -7,9 +7,9 @@
 # The program is designed for reading medical image, including DICOM, MHD
 # Extra types of medical image is still on the road ...
 
-import SimpleITK as stk
 import os
 
+from mhd import *
 
 if __name__ == '__main__':
 
