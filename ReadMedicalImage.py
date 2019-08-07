@@ -7,10 +7,11 @@
 # The program is designed for reading medical image, including DICOM, MHD
 # Extra types of medical image is still on the road ...
 
-import os
+import sys
 
-from mhd import *
+sys.path.append('../')
+
+
 
 if __name__ == '__main__':
-
     pass
